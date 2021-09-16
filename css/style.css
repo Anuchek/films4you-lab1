@@ -1,0 +1,157 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+body {
+    background: url(../img/bg_repeat.jpg) fixed;
+}
+
+.cover {
+    background: rgba(0, 0, 0, 0.83);
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* ======================= HEADER & FOOTER ==================*/
+header {
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header, footer {
+    background: #000000;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 18px;
+}
+
+header .logo .films {
+    font-family: 'Architects Daughter', cursive;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+header .logo .four {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    padding-right: 2px;
+
+}
+header .logo .you {
+    font-family: 'Azeret Mono', monospace;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #000;
+    background: #67a3ea;
+    padding: 2px;
+    border-radius: 10px;
+}
+.types a {
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.searchingByFilters {
+    text-transform: uppercase;
+}
+
+.searchingByFilters a {
+    color: #67a3ea;
+    font-weight: 600;
+}
+
+.searchByName img {
+    width: 25px;
+}
+.forms {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.forms a {
+    border-bottom: dotted 1px #67a3ea;
+    font-size: 18px;
+
+}
+
+.login {
+    padding-right: 10px;
+}
+
+/* ============ MAIN ===============*/
+.novelties {
+    display: flex;
+    color: #bdbdbd;
+    font-weight: 500;
+    font-size: 17px;
+    justify-content: space-between;
+    border-top: 2px solid #bdbdbd;
+    border-bottom: 2px solid #bdbdbd;
+}
+
+.filmName {
+    padding: 5px;
+    color: #d4d4d4;
+}
+
+img {
+    width: 100%;
+}
+
+.noveltiesTitle h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 5px 5px 5px 0;
+}
+
+.noveltiesTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+
+}
+
+.noveltiesTitle a {
+    font-family: inherit;
+    font-size: 18px;
+    border-bottom: dotted 1px #bdbdbd;
+}
+
+.announcement {
+    margin-top: 10px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.roundabout {
+    margin: 80px 0;
+}
